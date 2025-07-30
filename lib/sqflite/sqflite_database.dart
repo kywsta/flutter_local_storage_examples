@@ -1,7 +1,7 @@
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-class DatabaseHelper {
+class SqfliteDatabaseHelper {
   static Database? _database;
   static const String _tableName = 'notes';
 
