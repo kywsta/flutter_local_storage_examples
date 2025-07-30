@@ -10,8 +10,8 @@ void main() async {
       .into(database.todoItems)
       .insert(
         TodoItemsCompanion.insert(
-          title: 'todo: finish drift setup',
-          content: 'We can now write queries and define our own tables.',
+          title: 'Sample note',
+          content: 'This is a sample note',
         ),
       );
 
